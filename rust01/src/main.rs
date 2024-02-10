@@ -1,3 +1,10 @@
+use crate::http::server;
+
+mod http {
+    pub mod server;
+}
+
+
 fn main() {
-    println!("Hello, world!");
+    server::run();
 }
