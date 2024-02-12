@@ -8,4 +8,5 @@ edition = "2021"
 [dependencies]
 text-colorizer = "1"
 regex = "1"
+futures = { version = "0.3.30", features = ["thread-pool"] }
 
